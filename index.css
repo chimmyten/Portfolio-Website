@@ -120,3 +120,13 @@ a {
     background-color: rgba(202, 129, 56, 0.8);
     transition: .3s;
 } */
+
+@media (max-width: 1250px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    html {
+        background-color: red;
+    }
+}
