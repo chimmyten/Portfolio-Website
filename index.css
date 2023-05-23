@@ -121,7 +121,7 @@ a {
     transition: .3s;
 } */
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 3000px) {
     .project-grid {
         grid-template-columns: 1fr;
     }
