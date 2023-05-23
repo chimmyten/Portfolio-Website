@@ -36,9 +36,8 @@ function checkNav(e) {
         <div>`; 
     }
 
-    console.log(navBar.classList);
 }
-
+checkNav();
 
 homeButton.addEventListener("click", scrollToTop);
 homeButton.addEventListener("mouseover", () => {
@@ -51,6 +50,5 @@ projects.forEach((p) => {
 });
 
 window.addEventListener("resize", checkNav)
-document.addEventListener("DOMContentLoaded", checkNav);
 
 
