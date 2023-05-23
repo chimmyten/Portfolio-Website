@@ -142,7 +142,10 @@ a {
     transition: .3s;
 } */
 
-@media screen and (max-device-width: 200px) {
+@media screen 
+	and (max-device-width: 480px) 
+	and (-webkit-min-device-pixel-ration: 2)
+	and (orientation: portrait) {
 	.projects-grid {
 		display: grid;
 		grid-template-columns: 1fr;
