@@ -142,12 +142,12 @@ a {
     transition: .3s;
 } */
 
-@media screen and (max-device-width: 300px) {
+/* @media screen and (max-device-width: 300px) {
 	.projects-grid {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-}
+} */
 
 @media only screen and (max-width: 700px) {
 	.projects-grid {
@@ -156,7 +156,7 @@ a {
 	}
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
 	.featured-projects {
 		padding-left: 8vw;
 		padding-right: 8vw;
@@ -169,5 +169,8 @@ a {
 
 	.intro-div {
 		padding-left: 8vw;
+		padding-right: 8vw;
 	}
 }
+
+
