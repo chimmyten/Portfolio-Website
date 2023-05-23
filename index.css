@@ -156,13 +156,4 @@ a {
 	}
 }
 
-@media screen and (max-device-height: 800px) {
-	.project-image {
-		width: 20%;
-		height: 20%;
-	}
 
-	html {
-		background-color: lightblue;
-	}
-}
