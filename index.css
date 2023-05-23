@@ -161,4 +161,8 @@ a {
 		width: 20%;
 		height: 20%;
 	}
+
+	html {
+		background-color: lightblue;
+	}
 }
