@@ -100,8 +100,8 @@ a {
 }
 
 .project-image {
-	width: 20vw;
-	height: 30vh;
+	width: 75%;
+	height: 75%;
 	object-fit: contain;
 	pointer-events: none;
 }
@@ -147,12 +147,12 @@ a {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
+}
 
-	.project-image {
-		width: 40vw;
-		height: 50vh;
-		object-fit: contain;
-		pointer-events: none;
+@media only screen and (max-width: 800px) {
+	.projects-grid {
+		display: grid;
+		grid-template-columns: 1fr;
 	}
 }
 
@@ -162,10 +162,4 @@ a {
 		grid-template-columns: 1fr;
 	}
 
-	.project-image {
-		width: 30vw;
-		height: 30vh;
-		object-fit: contain;
-		pointer-events: none;
-	}
 }
