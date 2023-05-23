@@ -51,6 +51,6 @@ projects.forEach((p) => {
 });
 
 window.addEventListener("resize", checkNav)
-window.addEventListener("load", checkNav);
+window.addEventListener("DOMContentLoaded", checkNav);
 
 
