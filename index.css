@@ -142,7 +142,7 @@ a {
     transition: .3s;
 } */
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 300px) {
 	.projects-grid {
 		display: grid;
 		grid-template-columns: 1fr;
