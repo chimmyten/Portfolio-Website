@@ -17,6 +17,18 @@ function reset(e) {
     e.target.querySelector(".project-cover").style.backgroundColor = "rgba(202, 129, 56, 0)";
 }
 
+function checkNav(e) {
+    if (window.innerWidth < 800) {
+        const navBar = document.querySelector(".nav-flex");
+        navBar.innerHTML = `<div class = "nav-name">Timmy Chen</div>
+            <a class = "nav-link" href="Resume/resume-copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
+            <a class = "nav-link" href="https://github.com/chimmyten" target = "_blank" rel = "noopener noreferrer">Github</a>
+            <a class = "nav-link" href="https://www.linkedin.com/in/timmychen1/" target = "_blank" rel = "noopener noreferrer">LinkedIn</a>`;
+        navBar.classList.add("nav-small-flex");
+    }
+}
+
+
 homeButton.addEventListener("click", scrollToTop);
 homeButton.addEventListener("mouseover", () => {
 	homeButton.style.cursor = "default";
@@ -26,6 +38,8 @@ projects.forEach((p) => {
 	p.addEventListener("mouseover", transition);
     p.addEventListener("mouseout", reset)
 });
+
+window.addEventListener("resize", checkNav)
 
 
 
