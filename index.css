@@ -112,19 +112,20 @@ a {
 	flex-direction: column;
 	top: 2vh;
 	left: 2vw;
-	height: 35vh;
+	right: 2vw;
+	height: 80%;
 	justify-content: space-between;
 	color: white;
 }
 
 .project-title {
-	font-size: 2rem;
-	padding-top: 3vh;
+	font-size: 2em;
+	/* padding-top: 3vh; */
 }
 
 .project-description {
-	font-size: 1.2rem;
-	padding-bottom: 5vh;
+	font-size: 1.2em;
+	/* padding-bottom: 5vh; */
 }
 
 .project-cover {
@@ -173,4 +174,22 @@ a {
 	}
 }
 
+@media screen and (max-height: 650px) {
+	.project-title {
+		font-size: 1.5em;
+	}
 
+	.project-description {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-height: 400px) {
+	.project-title {
+		font-size: 1.2em;
+	}
+
+	.project-description {
+		font-size: .75em;
+	}
+}
