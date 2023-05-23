@@ -155,3 +155,19 @@ a {
 		grid-template-columns: 1fr;
 	}
 }
+
+@media screen and (max-width: 1300px) {
+	.featured-projects {
+		padding-left: 8vw;
+		padding-right: 8vw;
+	}
+
+	.nav-flex {
+		padding-left: 8vw;
+		padding-right: 8vw;
+	}
+
+	.intro-div {
+		padding-left: 8vw;
+	}
+}
