@@ -20,6 +20,7 @@ html {
 	border-width: 1px;
 	font-weight: 700;
 	background-color: white;
+	z-index: 50;
 }
 
 .nav-small-flex {
@@ -39,6 +40,7 @@ html {
 	border-width: 1px;
 	font-weight: 700;
 	background-color: white;
+	z-index: 50;
 }
 
 .nav-content-flex {
@@ -144,5 +146,12 @@ a {
 	.projects-grid {
 		display: grid;
 		grid-template-columns: 1fr;
+	}
+
+	.project-image {
+		width: 40vw;
+		height: 50vh;
+		object-fit: contain;
+		pointer-events: none;
 	}
 }
