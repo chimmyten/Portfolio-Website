@@ -113,7 +113,8 @@ a {
 	top: 2vh;
 	left: 2vw;
 	right: 2vw;
-	height: 80%;
+	/* height: 80%; */
+	bottom: 4vh;
 	justify-content: space-between;
 	color: white;
 }
