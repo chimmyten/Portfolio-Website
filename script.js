@@ -21,7 +21,7 @@ function checkNav(e) {
     const navBar = document.querySelector(".nav-flex");
     if (window.innerWidth < 1200) {
         navBar.innerHTML = `<div class = "nav-name">Timmy Chen</div>
-            <a class = "nav-link" href="Resume/currentResume-copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
+            <a class = "nav-link" href="Resume/current-resume-timmy-chen-copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
             <a class = "nav-link" href="https://github.com/chimmyten" target = "_blank" rel = "noopener noreferrer">Github</a>
             <a class = "nav-link" href="https://www.linkedin.com/in/timmychen1/" target = "_blank" rel = "noopener noreferrer">LinkedIn</a>`;
         navBar.classList.add("nav-small-flex");
@@ -30,7 +30,7 @@ function checkNav(e) {
         navBar.classList.remove("nav-small-flex")
         navBar.innerHTML = `<div class = "nav-name">Timmy Chen</div>
             <div class = "nav-content-flex">
-            <a class = "nav-link" href="Resume/currentResume-copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
+            <a class = "nav-link" href="Resume/current-resume-timmy-chen-copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
             <a class = "nav-link" href="https://github.com/chimmyten" target = "_blank" rel = "noopener noreferrer">Github</a>
             <a class = "nav-link" href="https://www.linkedin.com/in/timmychen1/" target = "_blank" rel = "noopener noreferrer">LinkedIn</a>
         <div>`; 
