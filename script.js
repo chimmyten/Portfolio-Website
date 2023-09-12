@@ -3,7 +3,10 @@ const projectGrid = document.querySelector(".projects-grid");
 const projects = projectGrid.querySelectorAll(".project");
 
 function scrollToTop(e) {
-	window.scrollTo(0, 0);
+    if (e.target.classList.contains("nav-name")){
+        window.scrollTo(0, 0);
+        console.log("hello");
+    }
 }
 
 function transition(e) {
@@ -39,10 +42,7 @@ function checkNav(e) {
 }
 checkNav();
 
-homeButton.addEventListener("click", scrollToTop);
-homeButton.addEventListener("mouseover", () => {
-	homeButton.style.cursor = "default";
-});
+document.querySelector(".nav-flex").addEventListener("click", scrollToTop);
 
 projects.forEach((p) => {
 	p.addEventListener("mouseover", transition);
@@ -50,5 +50,4 @@ projects.forEach((p) => {
 });
 
 window.addEventListener("resize", checkNav)
-
 
