@@ -20,20 +20,20 @@ function reset(e) {
 function checkNav(e) {
     const navBar = document.querySelector(".nav-flex");
     if (window.innerWidth < 1200) {
-        navBar.innerHTML = `<div class = "nav-name">Timmy Chen</div>
-            <a class = "nav-link" href="Resume/resume-copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
-            <a class = "nav-link" href="https://github.com/chimmyten" target = "_blank" rel = "noopener noreferrer">Github</a>
-            <a class = "nav-link" href="https://www.linkedin.com/in/timmychen1/" target = "_blank" rel = "noopener noreferrer">LinkedIn</a>`;
+        // navBar.innerHTML = `<div class = "nav-name">Timmy Chen</div>
+        //     <a class = "nav-link" href="Resume/resume-copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
+        //     <a class = "nav-link" href="https://github.com/chimmyten" target = "_blank" rel = "noopener noreferrer">Github</a>
+        //     <a class = "nav-link" href="https://www.linkedin.com/in/timmychen1/" target = "_blank" rel = "noopener noreferrer">LinkedIn</a>`;
         navBar.classList.add("nav-small-flex");
     }
     else if (window.innerWidth > 1200){
         navBar.classList.remove("nav-small-flex")
-        navBar.innerHTML = `<div class = "nav-name">Timmy Chen</div>
-            <div class = "nav-content-flex">
-            <a class = "nav-link" href="Resume/resume-copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
-            <a class = "nav-link" href="https://github.com/chimmyten" target = "_blank" rel = "noopener noreferrer">Github</a>
-            <a class = "nav-link" href="https://www.linkedin.com/in/timmychen1/" target = "_blank" rel = "noopener noreferrer">LinkedIn</a>
-        <div>`; 
+        // navBar.innerHTML = `<div class = "nav-name">Timmy Chen</div>
+        //     <div class = "nav-content-flex">
+        //     <a class = "nav-link" href="Resume/resume-copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
+        //     <a class = "nav-link" href="https://github.com/chimmyten" target = "_blank" rel = "noopener noreferrer">Github</a>
+        //     <a class = "nav-link" href="https://www.linkedin.com/in/timmychen1/" target = "_blank" rel = "noopener noreferrer">LinkedIn</a>
+        // <div>`; 
     }
 
 }
