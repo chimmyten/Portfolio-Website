@@ -44,9 +44,10 @@ html {
 }
 
 .nav-content-flex {
-	width: 22vw;
+	width: 423px;
 	display: flex;
 	justify-content: space-between;
+	flex-shrink: 0;
 }
 
 a {
