@@ -43,6 +43,10 @@ html {
 	z-index: 50;
 }
 
+.nav-name:hover {
+	cursor: pointer;
+}
+
 .nav-content-flex {
 	width: 423px;
 	display: flex;
@@ -69,6 +73,10 @@ a {
 	margin-top: 5vh;
 	font-size: 1.2rem;
 	text-decoration: underline;
+}
+
+.intro-email:hover {
+	cursor: default;
 }
 
 .featured-projects {
