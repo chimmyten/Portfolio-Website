@@ -1,102 +1,148 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Timmy Chen's Portfolio</title>
-        <link rel="stylesheet" href="index.css">
+  <head>
+    <title>Timmy Chen's Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <!-- Check checkNav() function in JS to make changes, it changes the innerHTML -->
+    <nav class="nav-flex">
+      <div class="nav-name">Timmy Chen</div>
+      <div class="nav-content-flex">
+        <a class="nav-link" href="Resume/Current_Resume_Timmy_Chen_copy.pdf" target="_blank" rel="noopener noreferrer"
+          >Resume</a
+        >
+        <a class="nav-link" href="https://github.com/chimmyten" target="_blank" rel="noopener noreferrer">Github</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/timmychen1/" target="_blank" rel="noopener noreferrer"
+          >LinkedIn</a
+        >
+      </div>
+    </nav>
 
-        <nav class = "nav-flex">
-            <div class = "nav-name">Timmy Chen</div>
-            <div class = "nav-content-flex">
-                <a class = "nav-link" href="./Resume/Current_Resume_Timmy_Chen_copy.pdf" target = "_blank" rel = "noopener noreferrer">Resume</a>
-                <a class = "nav-link" href="https://github.com/chimmyten" target = "_blank" rel = "noopener noreferrer">Github</a>
-                <a class = "nav-link" href="https://www.linkedin.com/in/timmychen1/" target = "_blank" rel = "noopener noreferrer">LinkedIn</a>
-            <div>
-        </nav>
+    <div class="intro-section">
+      <div class="intro-div">
+        <h1>Timmy Chen - Student and Aspiring Software Engineer</h1>
+        <p class="intro-paragraph">
+          I'm currently in my third year at Rutgers University studying Computer Science and Business Analytics &
+          Information Technology.
+        </p>
+        <div class="intro-email">tim.chen6634@gmail.com</div>
+      </div>
+    </div>
 
-        <div class = "intro-section">
-            <div class = "intro-div">
-                <h1>Timmy Chen - Student and Aspiring Software Engineer</h1>
-                <p class = "intro-paragraph">I'm currently in my third year at Rutgers University studying Computer Science and Business Analytics & Information Technology.</p>
-                <div class = "intro-email">tim.chen6634@gmail.com</div>
+    <section class="featured-projects">
+      <h2 class="projects-heading">Featured Work</h2>
+      <div class="projects-grid">
+        <a
+          class="project project-1"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/JupyPod/JupyPod"
+        >
+          <img class="project-image jupypod-image" src="Images/jupypod-image.png" />
+          <div class="project-cover">
+            <div class="project-text">
+              <div class="project-title">JupyPod</div>
+              <div class="project-description">
+                Contributed code for an application using React, TypeScript, React Flow, and Remirror based on CodePod,
+                where users can organize data and code on a canvas, allowing for seamless visualization and scalability.
+                I implemented critical features such as exporting and importing user data to/from a JSON file for
+                progress persistence and grouping nodes in auto-resizing boxes for organization and multi-selection.
+              </div>
             </div>
-        </div>
-
-        <section class = "featured-projects">
-            <h2 class = "projects-heading">Featured Work</h2>
-            <div class = "projects-grid">
-                <a class = "project project-1" target = "_blank" rel = "noopener noreferrer" href = "https://github.com/JupyPod/JupyPod">
-                    <img class = "project-image jupypod-image" src = "Images/jupypod-image.png">
-                    <div class = "project-cover">
-                        <div class = "project-text">
-                            <div class = "project-title">JupyPod</div>
-                            <div class = "project-description">Contributed code for an application using React, TypeScript, React Flow, and Remirror based on CodePod, where
-                                users can organize data and code on a canvas, allowing for seamless visualization and scalability. I implemented
-                                critical features such as exporting and importing user data to/from a JSON file for progress persistence and grouping nodes in auto-resizing boxes for organization and multi-selection.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a class = "project project-2" target = "_blank" rel="noopener noreferrer" href = "https://codepod.io/">
-                    <img class = "project-image codepod-image" src="Images/codepod-showcase.png">
-                    <div class = "project-cover">
-                        <div class = "project-text">
-                            <div class = "project-title">Codepod</div>
-                            <div class = "project-description">As a summer intern, implemented UI features including interactive sliders that allow users to adjust the font size for each individual scope level, toolbar auto-hiding, and more. These features were implemented using React, Typescript, and Zustand.</div>
-                        </div>
-                    </div>
-                </a>
-                <a class = "project project-3" target = "_blank" rel = "noopener noreferrer" href = "https://github.com/chimmyten/Travel-Project">
-                    <img class = "project-image travel-project-image" src = "Images/travel-project-image.png">
-                    <div class = "project-cover">
-                        <div class = "project-text">
-                            <div class = "project-title">Flight Reservation Website</div>
-                            <div class = "project-description"> A flight reservation website developed with a team using JSP and MySQL where customers can search for flights using
-                                various criteria and reserve flights which are added by an admin user. I contributed the search page functionality and assisted with the database design process.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a class = "project project-4" target = "_blank" rel = "noopener noreferrer" href = "https://github.com/chimmyten/Photos-Android">
-                    <img class = "project-image photos-app-image" src = "Images/photos-app.png">
-                    <div class = "project-cover">
-                        <div class = "project-text">
-                            <div class = "project-title">Android Photo Albums App</div>
-                            <div class = "project-description"> A photo albums app developed in Android Studio using Java where users can create
-                                photo albums and add tags to uploaded pictures, as well as display photos in a gallery slideshow. I implemented 
-                                essential features such as creating, deleting, and renaming albums, searching with auto-completion
-                                using photo tags, and serializing user data for persistence when closing and reopening the app.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a class = "project project-5" target = "_blank" rel = "noopener noreferrer" href = "https://chimmyten.github.io/weather-app/">
-                    <img class = "project-image weather-image" src = "Images/weather-app.png">
-                    <div class = "project-cover">
-                        <div class = "project-text">
-                            <div class = "project-title">Weather App</div>
-                            <div class = "project-description"> An interactive weather app built with React and Bootstrap. The app uses data from the Free Weather API (https://www.weatherapi.com/) and displays weather information based on a searched location.
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a class = "project project-6" target = "_blank" rel = "noopener noreferrer" href = "https://drive.google.com/drive/u/2/folders/1-8dpU9EuBkI8YcuXy8QyMmAVruEzPrcV">
-                    <img class = "project-image pure-pursuit-image" src = "Images/pure-pursuit.png">
-                    <div class = "project-cover">
-                        <div class = "project-text">
-                            <div class = "project-title">Pure-Pursuit Lecture</div>
-                            <div class = "project-description">A lecture video created in collaboration with another student detailing the Pure-Pursuit algorithm for path-tracking in 2D.
-                                The video consists of a presentation focused on the concepts of the algorithm and a live-coding demonstration in Python simulating the algorithm in action.
-                            </div>
-                        </div>
-                    </div>
-                </a>
+          </div>
+        </a>
+        <a class="project project-2" target="_blank" rel="noopener noreferrer" href="https://codepod.io/">
+          <img class="project-image codepod-image" src="Images/codepod-showcase.png" />
+          <div class="project-cover">
+            <div class="project-text">
+              <div class="project-title">Codepod</div>
+              <div class="project-description">
+                As a summer intern, implemented UI features including interactive sliders that allow users to adjust the
+                font size for each individual scope level, toolbar auto-hiding, and more. These features were
+                implemented using React, Typescript, and Zustand.
+              </div>
             </div>
-        </section>
+          </div>
+        </a>
+        <a
+          class="project project-3"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/chimmyten/Travel-Project"
+        >
+          <img class="project-image travel-project-image" src="Images/travel-project-image.png" />
+          <div class="project-cover">
+            <div class="project-text">
+              <div class="project-title">Flight Reservation Website</div>
+              <div class="project-description">
+                A flight reservation website developed with a team using JSP and MySQL where customers can search for
+                flights using various criteria and reserve flights which are added by an admin user. I contributed the
+                search page functionality and assisted with the database design process.
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          class="project project-4"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/chimmyten/Photos-Android"
+        >
+          <img class="project-image photos-app-image" src="Images/photos-app.png" />
+          <div class="project-cover">
+            <div class="project-text">
+              <div class="project-title">Android Photo Albums App</div>
+              <div class="project-description">
+                A photo albums app developed in Android Studio using Java where users can create photo albums and add
+                tags to uploaded pictures, as well as display photos in a gallery slideshow. I implemented essential
+                features such as creating, deleting, and renaming albums, searching with auto-completion using photo
+                tags, and serializing user data for persistence when closing and reopening the app.
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          class="project project-5"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://chimmyten.github.io/weather-app/"
+        >
+          <img class="project-image weather-image" src="Images/weather-app.png" />
+          <div class="project-cover">
+            <div class="project-text">
+              <div class="project-title">Weather App</div>
+              <div class="project-description">
+                An interactive weather app built with React and Bootstrap. The app uses data from the Free Weather API
+                (https://www.weatherapi.com/) and displays weather information based on a searched location.
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          class="project project-6"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://drive.google.com/drive/u/2/folders/1-8dpU9EuBkI8YcuXy8QyMmAVruEzPrcV"
+        >
+          <img class="project-image pure-pursuit-image" src="Images/pure-pursuit.png" />
+          <div class="project-cover">
+            <div class="project-text">
+              <div class="project-title">Pure-Pursuit Lecture</div>
+              <div class="project-description">
+                A lecture video created in collaboration with another student detailing the Pure-Pursuit algorithm for
+                path-tracking in 2D. The video consists of a presentation focused on the concepts of the algorithm and a
+                live-coding demonstration in Python simulating the algorithm in action.
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
 
-        <script src = "script.js"></script>
-    </body>
+    <script src="script.js"></script>
+  </body>
 </html>
