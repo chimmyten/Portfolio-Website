@@ -134,7 +134,7 @@ a {
 }
 
 .project-description {
-  font-size: 1.2em;
+  font-size: 1.15em;
   /* padding-bottom: 5vh; */
 }
 
@@ -195,13 +195,13 @@ a {
   }
 }
 
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 800px) {
   .project-title {
     font-size: 1.5em;
   }
 
   .project-description {
-    font-size: 1em;
+    font-size: .9em;
   }
 }
 
